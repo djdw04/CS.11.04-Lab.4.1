@@ -92,15 +92,15 @@ public class Main {
         return sub;
     }
 }
-    // 1. parenthesesCheck
+// 1. parenthesesCheck
 
 
-    // 2. reverseInteger
+// 2. reverseInteger
 
 
-    // 3. encryptThis
+// 3. encryptThis
 
 
-    // 4. decipherThis
+// 4. decipherThis
 
 
