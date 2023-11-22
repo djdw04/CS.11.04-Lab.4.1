@@ -1,5 +1,6 @@
 import java.util.Stack;
 public class Main {
+    // 1. parenthesesCheck
     public static Object parenthesesCheck(String s) {
         Stack<Character> stack = new Stack<>();
 
@@ -22,6 +23,7 @@ public class Main {
         return stack.isEmpty();
     }
 
+    // 2. reverseInteger
     public static String reverseInteger(int num) {
         String numString = Integer.toString(num);
         String last = "";
@@ -33,6 +35,8 @@ public class Main {
         }
         return last;
     }
+
+    // 3. encryptThis
     public static String encryptThis(String str){
         int a =0;
         int b=0;
@@ -57,6 +61,7 @@ public class Main {
         return sub;
     }
 
+    // 4. decipherThis
     public static String decipherThis(String str){
         int a =0;
         String l = "";
@@ -92,15 +97,3 @@ public class Main {
         return sub;
     }
 }
-// 1. parenthesesCheck
-
-
-// 2. reverseInteger
-
-
-// 3. encryptThis
-
-
-// 4. decipherThis
-
-
